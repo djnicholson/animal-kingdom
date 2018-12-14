@@ -12,7 +12,7 @@ class Landing extends Component {
 
   signIn(e) {
     e.preventDefault()
-    this.userSession.redirectToSignIn(window.location.href)
+    this.userSession.redirectToSignIn(window.location.href, window.location.href.replace(/\/[^\/]*$/, '/manifest.json'))
   }
 
   render() {
