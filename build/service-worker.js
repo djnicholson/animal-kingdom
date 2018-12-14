@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/build/index.html","7f5bf5fa30127f22cefbcecaf83b0626"],["/build/static/css/main.11678f4d.css","5884628f4c0fc93ceccaedba84fe6906"],["/build/static/js/main.a55c932d.js","5d85ce3bf9c87fe7e152497c70c79418"]];
+var precacheConfig = [["/build/index.html/index.html","afb3b9aee2f93675ca73882c6c1956d7"],["/build/index.html/static/css/main.11678f4d.css","5884628f4c0fc93ceccaedba84fe6906"],["/build/index.html/static/js/main.ab011a2a.js","edd527c82d0406118e945af4a95a7916"]];
 var cacheName = 'sw-precache-v3-sw-precache-webpack-plugin-' + (self.registration ? self.registration.scope : '');
 
 
@@ -229,7 +229,7 @@ self.addEventListener('fetch', function(event) {
 
     // If shouldRespond is still false, check to see if this is a navigation
     // request, and if so, whether the URL matches navigateFallbackWhitelist.
-    var navigateFallback = '/build/index.html';
+    var navigateFallback = '/build/index.html/index.html';
     if (!shouldRespond &&
         navigateFallback &&
         (event.request.mode === 'navigate') &&
