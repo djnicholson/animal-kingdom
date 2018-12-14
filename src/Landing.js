@@ -12,7 +12,7 @@ class Landing extends Component {
 
   signIn(e) {
     e.preventDefault()
-    this.userSession.redirectToSignIn()
+    this.userSession.redirectToSignIn(window.location.href)
   }
 
   render() {
