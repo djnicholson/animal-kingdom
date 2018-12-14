@@ -2,7 +2,7 @@
   "name": "animal-kingdom",
   "version": "1.0.0-alpha.2",
   "private": false,
-  "homepage": "https://animalkingdom.djnicholson.com/build",
+  "homepage": "https://animalkingdom.djnicholson.com/build/index.html",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
