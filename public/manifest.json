@@ -1,7 +1,7 @@
-/* 
-  Note: This file is duplicated in the root folder (make any changes there too).
-*/
 {
+  "COMMENT": "Note: This file is duplicated in the root folder (make any changes there too).",
+
+  
   "short_name": "Animal Kingdom",
   "name": "Animal Kingdom",
   "icons": [

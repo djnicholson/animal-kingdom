@@ -1,8 +1,8 @@
-/* 
-  This has to be duplicated in the root directory, because the Blockstack redirectToSignIn API
-  does not seem to honor the parameter to specify a custom manifest.
-*/
 {
+  "COMMENT": "This has to be duplicated in the root directory, because the Blockstack redirectToSignIn API does not seem to honor the parameter to specify a custom manifest.",
+
+
+
   "short_name": "Animal Kingdom",
   "name": "Animal Kingdom",
   "icons": [
