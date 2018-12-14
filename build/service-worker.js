@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/animal-kingdom/build/index.html","d7182db12b577970f513b7fd03ab98df"],["/animal-kingdom/build/static/css/main.11678f4d.css","5884628f4c0fc93ceccaedba84fe6906"],["/animal-kingdom/build/static/js/main.4f07b526.js","7c7871bedebbe37c3357b757408df423"]];
+var precacheConfig = [["/build/index.html","7f5bf5fa30127f22cefbcecaf83b0626"],["/build/static/css/main.11678f4d.css","5884628f4c0fc93ceccaedba84fe6906"],["/build/static/js/main.a55c932d.js","5d85ce3bf9c87fe7e152497c70c79418"]];
 var cacheName = 'sw-precache-v3-sw-precache-webpack-plugin-' + (self.registration ? self.registration.scope : '');
 
 
@@ -229,7 +229,7 @@ self.addEventListener('fetch', function(event) {
 
     // If shouldRespond is still false, check to see if this is a navigation
     // request, and if so, whether the URL matches navigateFallbackWhitelist.
-    var navigateFallback = '/animal-kingdom/build/index.html';
+    var navigateFallback = '/build/index.html';
     if (!shouldRespond &&
         navigateFallback &&
         (event.request.mode === 'navigate') &&
