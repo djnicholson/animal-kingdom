@@ -28,7 +28,12 @@ export const TERRITORIES = [
     id: 'tundra',
     name: 'Tundra',
     superpower: 'Let it snow!'
-  }
+  },
+  {
+    id: 'england',
+    name: 'United Kingdom',
+    superpower: 'Is it raining?'
+  },
 ]
 
 export const ME_FILENAME = 'me.json'
